@@ -1,0 +1,139 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bolder;
+    background: #7f5539;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+span {
+    font-weight: bold;
+}
+.orange {
+    background-color: #FF764E;
+}
+.blue {
+    background-color: #5ED3EB;
+}
+.yellow {
+    background-color: #FFCD69;
+}
+/* Header */
+nav {
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    padding: 1% 0;
+    width: 13%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+/* Titles Section */
+.titles {
+    text-align: center;
+    padding: 3% 0;
+}
+.left, .right {
+    display: inline-block;
+}
+.left {
+    width: 30%;
+    margin-left: 5%;
+    vertical-align: middle;
+}
+.left img {
+    border-radius: 50%;
+}
+.right {
+    width: 55%;
+    vertical-align: middle;
+}
+.right h1 {
+    padding: 2%;
+}
+.right p {
+    padding: 2%;
+    margin: 0 6% 0;
+}
+.right .squeeze {
+    margin: 0 18% 0;    
+}
+/* Section One */
+.section-one .banner {
+    background-color: #DDB9A3;
+    margin: 0 2% 2%;
+    height: 225px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section-one .text-container .one {
+    margin: 5% 1% 1%;
+}
+.section-one .text-container .two {
+    margin: 1% 1% 5%;
+}
+/* Section One / Images */
+.section-one .img-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.section-one img {
+    width: 200px;
+    height: 200px;
+    margin-left: 33%
+}
+.section-one p {
+    text-align: center;
+}
+.section-one .img-container .fire {
+    padding-bottom: 15%;
+}
+.section-one .img-container .fire p {
+    margin: 3% 25% 0;
+}
+.section-one .img-container .camping {
+    padding-bottom: 15%;
+}
+.section-one .img-container .camping p {
+    margin: 3% 25% 0;
+}
+/* Footer */
+footer img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 15%;
+}
+footer nav {
+    background: #F9E7DC;
+}
