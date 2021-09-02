@@ -112,7 +112,24 @@ button {
 button:hover {
     background: rgb(67, 104, 67);
 }
-
+/* Sign Up */
+.inputs {
+    text-align: center;
+    font-family: 'Chelsea Market';
+    padding: 5%;
+}
+.page {
+    background: url("/assets/join.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+.video {
+    margin-top: 10%;
+    text-align: center;
+}
 /* Footer */
 footer img {
     height: 300px;
