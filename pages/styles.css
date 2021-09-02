@@ -94,6 +94,14 @@ nav a {
 .sites h1:hover {
     color: purple
 }
+/* Plan Visit */
+.witch .left {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin: -20px -20px 20px -100px;
+}
+
 /* Learn About the Park */
 .links a {
     background: #7f5539;
